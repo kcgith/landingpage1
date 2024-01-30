@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+
+}
+
+
+
+
+.topspace{
+    margin-top: 60px;
+}
+
+
+  
+nav{
+    
+    background-color: rgb(226, 74, 74);
+    width:100%;
+    padding-bottom: 20px !important;
+    display: flex;
+}
+
+.nav-item{
+    display:flex;
+    justify-content: right;
+    padding-right: 1px;
+    padding-left:1px;
+    padding-top:1px;
+    padding-bottom:1px;
+    
+  
+}
+.nav-item:hover{
+    color:white;
+    border: 2px solid;
+    border-color:rgb(167, 56, 80);
+    border-radius: 10px !important;
+    background-color: black;
+    align-content: center;
+
+}
+
+.textblah{
+    background-image: url(\luca-bravo-hFzIoD0F_i8-unsplash.jpg);
+    background-size:cover;
+    
+
+    background-repeat:no-repeat;
+    padding-top:200px;
+    padding-bottom:200px;
+    font-size: 30px;
+    display:flex;
+    flex-direction: column;
+    text-shadow: 70%;
+    color:azure;
+    text-align:left;
+    align-content:start;
+    box-shadow:black ;
+    
+    
+}
+.textblah3{
+    background-image: url(\mohamed-masaau-nfF5-G6cFwY-unsplash.jpg);
+    background-size:cover;
+    
+
+    background-repeat:no-repeat;
+    padding-top:200px;
+    padding-bottom:200px;
+    font-size: 30px;
+    display:flex;
+    flex-direction: column;
+    text-shadow: 70%;
+    color:azure;
+    text-align:right;
+    align-content:start;
+    box-shadow:black ;
+    padding-right: 30px;
+}
+
+h1{
+    font-size: 55px !important;
+    padding-left: 150px;
+    text-decoration: brown;
+}
+p{
+    padding-left:150px;
+}
+.navbar-brand{
+    padding-left: 50px;
+}
+.textblah2{
+    padding-top:100px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin=bottom: 50px;
+}
+.card-group{
+    display: inline-flexbox !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+}
+footer{
+    padding-top: 30px;
+   
+}
+.brandname{
+    font-weight: 100;
+    float: left;
+    margin-left: 100px;
+}
+.footericons{
+    float:right;
+    margin-right:50px
+}
