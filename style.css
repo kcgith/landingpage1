@@ -1,5 +1,8 @@
 html, body {
     height: 100%;
+    width:100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
 
 }
 
@@ -41,7 +44,7 @@ nav{
 }
 
 .textblah{
-    background-image: url(\luca-bravo-hFzIoD0F_i8-unsplash.jpg);
+    background-image: url(images/luca-bravo-hFzIoD0F_i8-unsplash.jpg);
     background-size:cover;
     
 
@@ -60,7 +63,7 @@ nav{
     
 }
 .textblah3{
-    background-image: url(\mohamed-masaau-nfF5-G6cFwY-unsplash.jpg);
+    background-image: url(images/mohamed-masaau-nfF5-G6cFwY-unsplash.jpg);
     background-size:cover;
     
 
@@ -93,12 +96,13 @@ p{
     padding-top:100px;
     padding-bottom: 30px;
     text-align: center;
-    margin=bottom: 50px;
+    margin-bottom: 50px;
 }
 .card-group{
-    display: inline-flexbox !important;
-    justify-content: space-between !important;
-    flex-wrap: wrap;
+    padding-left:100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 70px;
 }
 footer{
     padding-top: 30px;
@@ -113,3 +117,114 @@ footer{
     float:right;
     margin-right:50px
 }
+.columns{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+}
+.column{
+    width:287px;
+    height: 350px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top:80px;
+    font-weight: 500;
+    font-size: 40px;
+}
+.columns2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+}
+.column2{
+    margin-top: 30px;
+    width:287px;
+    height: 350px;
+    text-align: left;
+    
+}
+.columns1{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+    margin-bottom: 50px;
+
+}
+.column3{
+    float:left;
+    width:300px;
+}
+.column3s{
+    width:600px;
+    float:right;
+}
+.cardtiles{
+    width: auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.overlap{
+    margin-left: 150px;
+    margin-right:50px;
+    margin-bottom: 50px;
+    
+
+}
+.row1{
+
+    display:grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 150px;
+    
+    
+}
+.column4a{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    background-color: darkcyan;
+    color:aliceblue;
+    height: 640px;
+    width: 770px;
+    text-align: right;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    
+}
+.image{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    margin-right:-500px;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    html, body {
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        
+    
+    }
+    .row{
+        display:block;
+    }
+    .card-group{
+        display:block;
+    }
+    .columns, .columns2 {
+        display: block;
+    }
+    .row1{
+        display: block;
+    }
+
+    }
+    
+    
