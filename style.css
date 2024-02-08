@@ -166,40 +166,34 @@ footer{
     margin-bottom: 80px;
 }
 .overlap{
-    margin-left: 150px;
-    margin-right:50px;
-    margin-bottom: 50px;
+    width: 90%;
+    margin:5%;
+    display:flex;
+
     
 
 }
 .row1{
+    width:50%;
 
-    display:grid;
-    grid-template-columns: auto auto;
-    margin-bottom: 150px;
+    
+
+    
     
     
 }
 .column4a{
-    position: relative;
-    top: 50px;
-    left: 100px;
+    width:50%;
     background-color: darkcyan;
-    color:aliceblue;
-    height: 640px;
-    width: 770px;
-    text-align: right;
-    padding-top: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding:20px;
     border-radius: 30px;
+    
+   
+    
+    
     
 }
 .image{
-    position: relative;
-    top: 100px;
-    left: 100px;
-    margin-right:-500px;
     border-radius: 30px;
 }
 
@@ -213,15 +207,19 @@ footer{
     
     }
     .row{
+        
         display:block;
     }
     .card-group{
+        
         display:block;
     }
     .columns, .columns2 {
+        
         display: block;
     }
     .row1{
+        
         display: block;
     }
 
